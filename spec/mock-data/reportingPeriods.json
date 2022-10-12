@@ -1,0 +1,732 @@
+{
+    "success": true,
+    "data": [
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c16f2",
+        "pay_schedule": "weekly",
+        "start": "2022-09-01",
+        "end": "2022-09-07"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c16f3",
+        "pay_schedule": "weekly",
+        "start": "2022-09-02",
+        "end": "2022-09-08"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c16f4",
+        "pay_schedule": "weekly",
+        "start": "2022-09-03",
+        "end": "2022-09-09"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c16f5",
+        "pay_schedule": "weekly",
+        "start": "2022-09-04",
+        "end": "2022-09-10"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c16f6",
+        "pay_schedule": "weekly",
+        "start": "2022-09-05",
+        "end": "2022-09-11"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c16f7",
+        "pay_schedule": "weekly",
+        "start": "2022-09-06",
+        "end": "2022-09-12"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c16f8",
+        "pay_schedule": "weekly",
+        "start": "2022-09-07",
+        "end": "2022-09-13"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c16fa",
+        "pay_schedule": "weekly",
+        "start": "2022-09-09",
+        "end": "2022-09-15"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c16fb",
+        "pay_schedule": "weekly",
+        "start": "2022-09-10",
+        "end": "2022-09-16"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c16f9",
+        "pay_schedule": "weekly",
+        "start": "2022-09-08",
+        "end": "2022-09-14"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c16fc",
+        "pay_schedule": "weekly",
+        "start": "2022-09-11",
+        "end": "2022-09-17"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c16fd",
+        "pay_schedule": "weekly",
+        "start": "2022-09-12",
+        "end": "2022-09-18"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c16fe",
+        "pay_schedule": "weekly",
+        "start": "2022-09-13",
+        "end": "2022-09-19"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c16ff",
+        "pay_schedule": "weekly",
+        "start": "2022-09-14",
+        "end": "2022-09-20"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1700",
+        "pay_schedule": "weekly",
+        "start": "2022-09-15",
+        "end": "2022-09-21"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1701",
+        "pay_schedule": "weekly",
+        "start": "2022-09-16",
+        "end": "2022-09-22"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1703",
+        "pay_schedule": "weekly",
+        "start": "2022-09-18",
+        "end": "2022-09-24"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1702",
+        "pay_schedule": "weekly",
+        "start": "2022-09-17",
+        "end": "2022-09-23"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1704",
+        "pay_schedule": "weekly",
+        "start": "2022-09-19",
+        "end": "2022-09-25"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1705",
+        "pay_schedule": "weekly",
+        "start": "2022-09-20",
+        "end": "2022-09-26"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1707",
+        "pay_schedule": "weekly",
+        "start": "2022-09-22",
+        "end": "2022-09-28"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1706",
+        "pay_schedule": "weekly",
+        "start": "2022-09-21",
+        "end": "2022-09-27"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1708",
+        "pay_schedule": "weekly",
+        "start": "2022-09-23",
+        "end": "2022-09-29"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c170a",
+        "pay_schedule": "weekly",
+        "start": "2022-09-25",
+        "end": "2022-10-01"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1709",
+        "pay_schedule": "weekly",
+        "start": "2022-09-24",
+        "end": "2022-09-30"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c170b",
+        "pay_schedule": "weekly",
+        "start": "2022-09-26",
+        "end": "2022-10-02"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c170d",
+        "pay_schedule": "weekly",
+        "start": "2022-09-28",
+        "end": "2022-10-04"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c170c",
+        "pay_schedule": "weekly",
+        "start": "2022-09-27",
+        "end": "2022-10-03"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c170e",
+        "pay_schedule": "weekly",
+        "start": "2022-09-29",
+        "end": "2022-10-05"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c170f",
+        "pay_schedule": "weekly",
+        "start": "2022-09-30",
+        "end": "2022-10-06"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1710",
+        "pay_schedule": "weekly",
+        "start": "2022-10-01",
+        "end": "2022-10-07"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1711",
+        "pay_schedule": "weekly",
+        "start": "2022-10-02",
+        "end": "2022-10-08"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1712",
+        "pay_schedule": "weekly",
+        "start": "2022-10-03",
+        "end": "2022-10-09"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1714",
+        "pay_schedule": "weekly",
+        "start": "2022-10-05",
+        "end": "2022-10-11"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1713",
+        "pay_schedule": "weekly",
+        "start": "2022-10-04",
+        "end": "2022-10-10"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1715",
+        "pay_schedule": "weekly",
+        "start": "2022-10-06",
+        "end": "2022-10-12"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1718",
+        "pay_schedule": "weekly",
+        "start": "2022-10-09",
+        "end": "2022-10-15"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1716",
+        "pay_schedule": "weekly",
+        "start": "2022-10-07",
+        "end": "2022-10-13"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1717",
+        "pay_schedule": "weekly",
+        "start": "2022-10-08",
+        "end": "2022-10-14"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1719",
+        "pay_schedule": "weekly",
+        "start": "2022-10-10",
+        "end": "2022-10-16"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c171a",
+        "pay_schedule": "weekly",
+        "start": "2022-10-11",
+        "end": "2022-10-17"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c171b",
+        "pay_schedule": "weekly",
+        "start": "2022-10-12",
+        "end": "2022-10-18"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c171c",
+        "pay_schedule": "weekly",
+        "start": "2022-10-13",
+        "end": "2022-10-19"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c171d",
+        "pay_schedule": "weekly",
+        "start": "2022-10-14",
+        "end": "2022-10-20"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c171f",
+        "pay_schedule": "weekly",
+        "start": "2022-10-16",
+        "end": "2022-10-22"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c171e",
+        "pay_schedule": "weekly",
+        "start": "2022-10-15",
+        "end": "2022-10-21"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1720",
+        "pay_schedule": "weekly",
+        "start": "2022-10-17",
+        "end": "2022-10-23"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1722",
+        "pay_schedule": "weekly",
+        "start": "2022-10-19",
+        "end": "2022-10-25"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1721",
+        "pay_schedule": "weekly",
+        "start": "2022-10-18",
+        "end": "2022-10-24"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1723",
+        "pay_schedule": "weekly",
+        "start": "2022-10-20",
+        "end": "2022-10-26"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1724",
+        "pay_schedule": "weekly",
+        "start": "2022-10-21",
+        "end": "2022-10-27"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1725",
+        "pay_schedule": "weekly",
+        "start": "2022-10-22",
+        "end": "2022-10-28"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1726",
+        "pay_schedule": "weekly",
+        "start": "2022-10-23",
+        "end": "2022-10-29"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1729",
+        "pay_schedule": "weekly",
+        "start": "2022-10-26",
+        "end": "2022-11-01"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1728",
+        "pay_schedule": "weekly",
+        "start": "2022-10-25",
+        "end": "2022-10-31"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1727",
+        "pay_schedule": "weekly",
+        "start": "2022-10-24",
+        "end": "2022-10-30"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c172a",
+        "pay_schedule": "weekly",
+        "start": "2022-10-27",
+        "end": "2022-11-02"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c172c",
+        "pay_schedule": "weekly",
+        "start": "2022-10-29",
+        "end": "2022-11-04"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c172b",
+        "pay_schedule": "weekly",
+        "start": "2022-10-28",
+        "end": "2022-11-03"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c172d",
+        "pay_schedule": "weekly",
+        "start": "2022-10-30",
+        "end": "2022-11-05"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c172e",
+        "pay_schedule": "weekly",
+        "start": "2022-10-31",
+        "end": "2022-11-06"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c172f",
+        "pay_schedule": "weekly",
+        "start": "2022-11-01",
+        "end": "2022-11-07"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1730",
+        "pay_schedule": "weekly",
+        "start": "2022-11-02",
+        "end": "2022-11-08"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1732",
+        "pay_schedule": "weekly",
+        "start": "2022-11-04",
+        "end": "2022-11-10"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1731",
+        "pay_schedule": "weekly",
+        "start": "2022-11-03",
+        "end": "2022-11-09"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1733",
+        "pay_schedule": "weekly",
+        "start": "2022-11-05",
+        "end": "2022-11-11"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1734",
+        "pay_schedule": "weekly",
+        "start": "2022-11-06",
+        "end": "2022-11-12"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1735",
+        "pay_schedule": "weekly",
+        "start": "2022-11-07",
+        "end": "2022-11-13"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1736",
+        "pay_schedule": "weekly",
+        "start": "2022-11-08",
+        "end": "2022-11-14"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1737",
+        "pay_schedule": "weekly",
+        "start": "2022-11-09",
+        "end": "2022-11-15"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1738",
+        "pay_schedule": "weekly",
+        "start": "2022-11-10",
+        "end": "2022-11-16"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1739",
+        "pay_schedule": "weekly",
+        "start": "2022-11-11",
+        "end": "2022-11-17"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c173a",
+        "pay_schedule": "weekly",
+        "start": "2022-11-12",
+        "end": "2022-11-18"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c173c",
+        "pay_schedule": "weekly",
+        "start": "2022-11-14",
+        "end": "2022-11-20"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c173b",
+        "pay_schedule": "weekly",
+        "start": "2022-11-13",
+        "end": "2022-11-19"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c173d",
+        "pay_schedule": "weekly",
+        "start": "2022-11-15",
+        "end": "2022-11-21"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1741",
+        "pay_schedule": "weekly",
+        "start": "2022-11-19",
+        "end": "2022-11-25"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c173e",
+        "pay_schedule": "weekly",
+        "start": "2022-11-16",
+        "end": "2022-11-22"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1740",
+        "pay_schedule": "weekly",
+        "start": "2022-11-18",
+        "end": "2022-11-24"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c173f",
+        "pay_schedule": "weekly",
+        "start": "2022-11-17",
+        "end": "2022-11-23"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1744",
+        "pay_schedule": "weekly",
+        "start": "2022-11-22",
+        "end": "2022-11-28"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1742",
+        "pay_schedule": "weekly",
+        "start": "2022-11-20",
+        "end": "2022-11-26"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1745",
+        "pay_schedule": "weekly",
+        "start": "2022-11-23",
+        "end": "2022-11-29"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1743",
+        "pay_schedule": "weekly",
+        "start": "2022-11-21",
+        "end": "2022-11-27"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1746",
+        "pay_schedule": "weekly",
+        "start": "2022-11-24",
+        "end": "2022-11-30"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1747",
+        "pay_schedule": "weekly",
+        "start": "2022-11-25",
+        "end": "2022-12-01"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1748",
+        "pay_schedule": "weekly",
+        "start": "2022-11-26",
+        "end": "2022-12-02"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c174a",
+        "pay_schedule": "weekly",
+        "start": "2022-11-28",
+        "end": "2022-12-04"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1749",
+        "pay_schedule": "weekly",
+        "start": "2022-11-27",
+        "end": "2022-12-03"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c174b",
+        "pay_schedule": "weekly",
+        "start": "2022-11-29",
+        "end": "2022-12-05"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c174e",
+        "pay_schedule": "weekly",
+        "start": "2022-12-02",
+        "end": "2022-12-08"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c174c",
+        "pay_schedule": "weekly",
+        "start": "2022-11-30",
+        "end": "2022-12-06"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c174d",
+        "pay_schedule": "weekly",
+        "start": "2022-12-01",
+        "end": "2022-12-07"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c174f",
+        "pay_schedule": "weekly",
+        "start": "2022-12-03",
+        "end": "2022-12-09"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1750",
+        "pay_schedule": "weekly",
+        "start": "2022-12-04",
+        "end": "2022-12-10"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1751",
+        "pay_schedule": "weekly",
+        "start": "2022-12-05",
+        "end": "2022-12-11"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1752",
+        "pay_schedule": "weekly",
+        "start": "2022-12-06",
+        "end": "2022-12-12"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1753",
+        "pay_schedule": "weekly",
+        "start": "2022-12-07",
+        "end": "2022-12-13"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1754",
+        "pay_schedule": "weekly",
+        "start": "2022-12-08",
+        "end": "2022-12-14"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1755",
+        "pay_schedule": "weekly",
+        "start": "2022-12-09",
+        "end": "2022-12-15"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1756",
+        "pay_schedule": "weekly",
+        "start": "2022-12-10",
+        "end": "2022-12-16"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1759",
+        "pay_schedule": "weekly",
+        "start": "2022-12-13",
+        "end": "2022-12-19"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1758",
+        "pay_schedule": "weekly",
+        "start": "2022-12-12",
+        "end": "2022-12-18"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1757",
+        "pay_schedule": "weekly",
+        "start": "2022-12-11",
+        "end": "2022-12-17"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c175a",
+        "pay_schedule": "weekly",
+        "start": "2022-12-14",
+        "end": "2022-12-20"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c175b",
+        "pay_schedule": "weekly",
+        "start": "2022-12-15",
+        "end": "2022-12-21"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c175c",
+        "pay_schedule": "weekly",
+        "start": "2022-12-16",
+        "end": "2022-12-22"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c175e",
+        "pay_schedule": "weekly",
+        "start": "2022-12-18",
+        "end": "2022-12-24"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c175d",
+        "pay_schedule": "weekly",
+        "start": "2022-12-17",
+        "end": "2022-12-23"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c175f",
+        "pay_schedule": "weekly",
+        "start": "2022-12-19",
+        "end": "2022-12-25"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1760",
+        "pay_schedule": "weekly",
+        "start": "2022-12-20",
+        "end": "2022-12-26"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1762",
+        "pay_schedule": "weekly",
+        "start": "2022-12-22",
+        "end": "2022-12-28"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1761",
+        "pay_schedule": "weekly",
+        "start": "2022-12-21",
+        "end": "2022-12-27"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1763",
+        "pay_schedule": "weekly",
+        "start": "2022-12-23",
+        "end": "2022-12-29"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1764",
+        "pay_schedule": "weekly",
+        "start": "2022-12-24",
+        "end": "2022-12-30"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1765",
+        "pay_schedule": "weekly",
+        "start": "2022-12-25",
+        "end": "2022-12-31"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1766",
+        "pay_schedule": "weekly",
+        "start": "2022-12-26",
+        "end": "2023-01-01"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1767",
+        "pay_schedule": "weekly",
+        "start": "2022-12-27",
+        "end": "2023-01-02"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1768",
+        "pay_schedule": "weekly",
+        "start": "2022-12-28",
+        "end": "2023-01-03"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c1769",
+        "pay_schedule": "weekly",
+        "start": "2022-12-29",
+        "end": "2023-01-04"
+      },
+      {
+        "reportingPeriodID": "61d5556db8809ab05d4c176a",
+        "pay_schedule": "weekly",
+        "start": "2022-12-30",
+        "end": "2023-01-05"
+      }
+    ]
+  }
+  

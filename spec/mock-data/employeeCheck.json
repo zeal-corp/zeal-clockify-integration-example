@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "data": {
+    "employeeCheckID": "XXXXXXXXXXXXXXXXXXXXXXXXXX8682",
+    "employerCheckID": null,
+    "companyID": "XXXXXXXXXXXXXXXXXXXXXXXXXX6304",
+    "employeeID": "XXXXXXXXXXXXXXXXXXXXXXXXXX3808",
+    "status": "pending",
+    "is_salary": false,
+    "approval_required": false,
+    "approved": false,
+    "first_name": "Jared",
+    "middle_initial": null,
+    "last_name": "Dunn",
+    "reportingPeriodID": "61d5556db8809ab05d4c1714",
+    "check_date": "2022-10-03",
+    "metadata": {},
+    "disbursement": {
+      "method": "direct_deposit",
+      "history": []
+    },
+    "taxes": [],
+    "gross_pay": 80,
+    "net_pay": null,
+    "total_employer_taxes": null,
+    "total_employee_taxes": null,
+    "totals": {
+      "gross_earnings": null,
+      "gross_pay": null,
+      "net_pay": null,
+      "employer_taxes": null,
+      "employee_taxes": null,
+      "employee_deductions": null,
+      "employee_garnishments": null,
+      "employer_deductions": null,
+      "company_debit": null,
+      "company_cash_requirement": null
+    },
+    "shifts": [
+      {
+        "shiftID": "XXXXXXXXXXXXXXXXXXXXXXXXXX486d",
+        "status": "pending",
+        "employeeID": "XXXXXXXXXXXXXXXXXXXXXXXXXX3808",
+        "employeeCheckID": "XXXXXXXXXXXXXXXXXXXXXXXXXX8682",
+        "first_name": "jared",
+        "last_name": "dunn",
+        "time": "2022-09-20T14:30:34Z",
+        "metadata": {},
+        "hourly": {
+          "hours": 4,
+          "wage": 20
+        }
+      }
+    ],
+    "deductions": []
+  }
+}
