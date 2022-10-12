@@ -8,7 +8,7 @@ export class ResourceNotFoundException extends Error {
 }
 
 export class InvalidTimeEntryException extends Error {
-    readonly name = "InvalidTimeEntry";
+    readonly name = "InvalidTimeEntryException";
     readonly status = 400;
     
     constructor(message: string) {
