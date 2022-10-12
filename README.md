@@ -1,27 +1,32 @@
-# Zeal + Clockify Integration
+# 🦓 Zeal + Clockify Integration ⏰
 
 ## Description
+
 This app serves as an example of how one might integrate a time and attendance system, such as Clockify, with Zeal's payroll API.
 
 The app has one main purpose: receive time entry data from Clockify's Timer Stopped webhook event and convert it to a Shift on a Zeal Employee Check.
 
-### Guide
-This app is mean to be used as part of Zeal's [Time & Attendance Guide](https://docs.zeal.com/docs/time-attendance-integration). Please be sure to follow that walk-through to learn how to configure your Clockify account to work with this application.
-
 ### Tech Used
-* Node
-* Express
-* TypeScript
-* Jest
+
+- Node
+- Express
+- TypeScript
+- Jest
 
 ## Getting Started
+
+### Guide
+
+This app is mean to be used as part of Zeal's [Time & Attendance Guide](https://docs.zeal.com/docs/time-attendance-integration). Please be sure to follow that walk-through to learn how to configure your Clockify account to work with this application.
 
 ### Installation
 
 1. Clone the repository.
+
 ```bash
 git clone git@github.com:zeal-corp/zeal-clockify-integration-example.git
 ```
+
 2. `cd` to the new directory.
 3. Run `npm install`.
 4. Add a `.env` file with your `ZEAL_TEST_KEY` and `ZEAL_COMPANY_ID`.
@@ -29,6 +34,7 @@ git clone git@github.com:zeal-corp/zeal-clockify-integration-example.git
 ```bash
 echo "ZEAL_TEST_KEY={{YOUR TEST KEY}}\nZEAL_COMPANY_ID={{YOUR COMPANY ID}}" >> .env
 ```
+
 5. Run `npm test` to ensure everything is working as expected.
 6. Run `npm run dev` to start the server in development mode.
 
@@ -43,20 +49,23 @@ In the terminal you should see:
 The app is fairly simple with only two main directories and a few sub-directories:
 
 &#x203A; `src`: holds main app code.
-* &#xbb; `config`: contains configuration of environmental variables and other data the app depends on.
-* &#xbb; `controllers`: contains business logic for routes.
-* &#xbb; `middleware`: contains helpful middleware such as loggers and error handlers.
-* &#xbb; `routes`: contains Express routing logic.
-* &#xbb; `services`: contains business logic for 3rd-party APIs and services (Zeal). *Note*: This app has no db.
-* &#xbb; `utils`: contains useful helpers and reusable code.
+
+- &#xbb; `config`: contains configuration of environmental variables and other data the app depends on.
+- &#xbb; `controllers`: contains business logic for routes.
+- &#xbb; `middleware`: contains helpful middleware such as loggers and error handlers.
+- &#xbb; `routes`: contains Express routing logic.
+- &#xbb; `services`: contains business logic for 3rd-party APIs and services (Zeal). _Note_: This app has no db.
+- &#xbb; `utils`: contains useful helpers and reusable code.
 
 &#x203A; `spec`: holds testing code.
-* &#xbb; `mock-data`: contains JSON files mocking API responses.
-* &#xbb; `unit`: contains unit tests.
+
+- &#xbb; `mock-data`: contains JSON files mocking API responses.
+- &#xbb; `unit`: contains unit tests.
 
 ## Code Walk-through
 
-The app has two main sections that would be helpful to review: 
+The app has two main sections that would be helpful to review:
+
 1. The initial configuration on startup.
 2. The handler for the `/time-entry/timer-stopped` route.
 
@@ -80,13 +89,17 @@ async function configureAppVars() {
   } else {
     zealClient = ZealFactory.fromDefaultClient(process.env.ZEAL_TEST_KEY);
     companyID = process.env.ZEAL_COMPANY_ID;
-    defReportingPeriods = await getDefReportingPeriodsByPayday("Fri", zealClient, companyID);
+    defReportingPeriods = await getDefReportingPeriodsByPayday(
+      "Fri",
+      zealClient,
+      companyID
+    );
   }
 }
 ```
 
 > **Note:**
-> 
+>
 > In a production app, we'd likely rely on a database to store
 > data such as the `companyID` and `defReportingPeriods`, but we wanted to keep this app as
 > simple as possible so we chose to use this workaround.
@@ -95,11 +108,11 @@ Let's walk through the ones that may not be readily apparent:
 
 1. `zealClient`: this is basically an wrapper for the commonly used [axios library](https://axios-http.com/docs/intro) for making HTTP requests. This Zeal module found in `src/services/zeal` simply helps us make requests to Zeal's API.
 2. `companyID`: nearly all requests to Zeal's API require a company ID to be passed as a parameter so we initialize that here for later use.
-3. `defReportingPeriods`: this establishes a list of Reporting Periods that our app can reference internally, instead of having to make a call to the [Zeal API](https://docs.zeal.com/reference/retrieve-reporting-period-by-date-range) every time we receive Time Entry data from Clockify. 
+3. `defReportingPeriods`: this establishes a list of Reporting Periods that our app can reference internally, instead of having to make a call to the [Zeal API](https://docs.zeal.com/reference/retrieve-reporting-period-by-date-range) every time we receive Time Entry data from Clockify.
 
 > **Tip:**
-> 
-> You can see the reporting periods the app is establishing by visting 
+>
+> You can see the reporting periods the app is establishing by visting
 > http://localhost:3000/reporting-periods after the app starts.
 
 A few more words on `defReportingPeriods`:
@@ -110,7 +123,7 @@ For the purpose of this example, the logic found in `src/config/defReportingPeri
 defines a ruleset that employees should be on a weekly pay schedule and that the Reporting
 Periods should end one week before any given payday.
 
-> For Example: 
+> For Example:
 >
 > If the payday is "Fri", then Reporting Period for a 2022-09-30 check date should
 > be 2022-09-17 - 2022-09-23.
@@ -194,7 +207,6 @@ export async function createOrUpdateEmployeeCheck(
   employee: any,
   reportingPeriod: any
 ) {
-
   /* #buildShift takes the time entry data and converts it
     to a Zeal Shift Object */
   const hourlyShift = buildShift(req.body.timeInterval);
@@ -205,16 +217,9 @@ export async function createOrUpdateEmployeeCheck(
   );
 
   if (!existingCheck) {
-    return await createCheck(
-      employee.employeeID,
-      reportingPeriod,
-      hourlyShift
-    );
+    return await createCheck(employee.employeeID, reportingPeriod, hourlyShift);
   } else {
-    return await updateCheck(
-      existingCheck.employeeCheckID,
-      hourlyShift
-    );
+    return await updateCheck(existingCheck.employeeCheckID, hourlyShift);
   }
 }
 ```
