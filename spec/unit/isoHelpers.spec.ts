@@ -2,25 +2,25 @@ import { describe, expect, test } from "@jest/globals";
 import * as ISO from "../../src/utils/isoHelpers";
 
 describe("duration parser", () => {
-  describe("parseDuration", () => {
+  describe("parseHourlyShift", () => {
     test("given PT4H43M52S it returns an object representing the hours minutes and seconds", () => {
-      const hours = ISO.parseDuration("PT4H43M52S");
+      const hours = ISO.parseHourlyShift("PT4H43M52S");
       expect(hours).toEqual(4.73);
     });
 
     test("given PT3M12S it returns an object representing the hours minutes and seconds", () => {
-      const hours = ISO.parseDuration("PT3M12S");
+      const hours = ISO.parseHourlyShift("PT3M12S");
       expect(hours).toEqual(0.05);
     });
 
     test("given PT5H12S it returns an object representing the hours minutes and seconds", () => {
-      const hours = ISO.parseDuration("PT5H59S");
+      const hours = ISO.parseHourlyShift("PT5H59S");
       expect(hours).toEqual(5.02);
     });
 
     test("given P24W6DT6H21M05S it throws an 'invalid input' error", () => {
-      expect(() => ISO.parseDuration("P24W6DT6H21M05S")).toThrowError(
-        "ISO duration is improperly formatted. It should begin with only 'PT'."
+      expect(() => ISO.parseHourlyShift("P24W6DT6H21M05S")).toThrowError(
+        "Time Entry duration should not be longer than 24hrs."
       );
     });
   });

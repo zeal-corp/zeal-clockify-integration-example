@@ -1,9 +1,9 @@
-export function parseDuration(duration: string) {
-  // We probably don't want to accept shifts longer than 24 hrs
-  // Example: P1DT2H32M6S should error
+import { TimeEntryException } from "./exceptions";
+
+export function parseHourlyShift(duration: string) {
   if (duration.slice(0, 2) !== "PT")
-    throw new Error(
-      "ISO duration is improperly formatted. It should begin with only 'PT'."
+    throw new TimeEntryException(
+      "Time Entry duration should not be longer than 24hrs."
     );
   let hourlyShift = 0.0;
 
@@ -27,7 +27,14 @@ export function parseDuration(duration: string) {
     }
   }
 
-  return parseFloat(hourlyShift.toFixed(2));
+  const hours = parseFloat(hourlyShift.toFixed(2));
+
+  if (!hours)
+    throw new TimeEntryException(
+      "Time Entry duration must be at least 18 seconds."
+    );
+
+  return hours;
 }
 
 export function adjustDateBy(date: string, days: number): string {

@@ -3,7 +3,7 @@ import { ZealClient } from "../services/zeal";
 export type Payday = "Mon" | "Tue" | "Wed" | "Thu" | "Fri";
 
 // _Sun should never be read but is included so that other days
-// are indexed in line with Date.getDay() API
+// are indexed in line with Date.getDay API
 const DOW: readonly string[] = ["_Sun", "Mon", "Tue", "Wed", "Thu", "Fri"];
 
 export async function getDefReportingPeriodsByPayday(

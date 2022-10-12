@@ -9,7 +9,7 @@ import * as TimeEntryController from "../../src/controllers/timeEntry.controller
 import { ZealClient } from "../../src/services/zeal";
 import {
   ResourceNotFoundException,
-  InvalidTimeEntryException,
+  TimeEntryException,
 } from "../../src/utils/exceptions";
 
 describe("Time Entry Controller", () => {
@@ -81,13 +81,13 @@ describe("Time Entry Controller", () => {
       });
     });
 
-    test("given a Time Interval with a duration that is too short it returns an InvalidTimeEntryException", () => {
+    test("given a Time Interval with a duration that is too short it returns an TimeEntryException", () => {
       expect(() =>
         TimeEntryController.buildShift({
           end: "2022-09-03T17:24:34Z",
           duration: "PT10S",
         })
-      ).toThrowError(InvalidTimeEntryException);
+      ).toThrowError(TimeEntryException);
     });
   });
 

@@ -14,7 +14,7 @@ app.get("/", (_req: Request, res: Response) => {
   res.send("Zeal + Clockify App");
 });
 
-app.get("/reportingPeriods", (_req: Request, res: Response) => {
+app.get("/reporting-periods", (_req: Request, res: Response) => {
   res.json(configs.defReportingPeriods);
 });
 

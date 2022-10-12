@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from "express";
 import { ZealException } from "../services/zeal";
 import {
-  InvalidTimeEntryException,
+  TimeEntryException,
   ResourceNotFoundException,
 } from "../utils/exceptions";
 
@@ -25,7 +25,7 @@ export function handleErrors<E extends Error>(
     });
   } else if (
     err instanceof ResourceNotFoundException ||
-    err instanceof InvalidTimeEntryException
+    err instanceof TimeEntryException
   ) {
     return res.status(err.status || 500).json({
       ...stdErrBody,
