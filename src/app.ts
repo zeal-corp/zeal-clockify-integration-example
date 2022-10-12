@@ -1,5 +1,5 @@
 import express, { Express, Request, Response } from "express";
-import { defReportingPeriods } from "./config/app.config";
+import * as configs from "./config/app.config";
 
 export const app: Express = express();
 app.use(express.json());
@@ -10,11 +10,11 @@ app.get("/", (_req: Request, res: Response) => {
 });
 
 app.get("/reportingPeriods", (_req: Request, res: Response) => {
-  res.json(defReportingPeriods)
+  res.json(configs.defReportingPeriods)
 })
 
-app.listen(3000, () => {
+app.listen(configs.port, () => {
   console.log(
-    `🦓🦓🦓 [SERVER_START]: Server is running at http://localhost:${3000}`
+    `🦓🦓🦓 [SERVER_START]: Server is running at http://localhost:${configs.port}`
   );
 });

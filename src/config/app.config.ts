@@ -3,6 +3,7 @@ import { getDefReportingPeriodsByPayday } from "./defReportingPeriods.config";
 import dotenv from "dotenv";
 dotenv.config();
 
+const port = process.env.PORT || 3000;
 let zealClient: ZealClient;
 let companyID: string;
 let defReportingPeriods: any[];
@@ -15,10 +16,10 @@ async function configureAppVars() {
   } else {
     zealClient = ZealFactory.fromDefaultClient(process.env.ZEAL_TEST_KEY);
     companyID = process.env.ZEAL_COMPANY_ID;
-    defReportingPeriods = await getDefReportingPeriodsByPayday("Fri");
+    defReportingPeriods = await getDefReportingPeriodsByPayday("Fri", zealClient, companyID);
   }
 }
 
 configureAppVars();
 
-export { zealClient, companyID, defReportingPeriods };
+export {port, zealClient, companyID, defReportingPeriods };
