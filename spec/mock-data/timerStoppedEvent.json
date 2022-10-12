@@ -1,0 +1,53 @@
+{
+  "id": "XXXXXXXXXXXXXXXXXXXXX6312",
+  "description": "Testing Clockify Integration",
+  "userId": "XXXXXXXXXXXXXXXXXXXX64ea",
+  "billable": true,
+  "projectId": "XXXXXXXXXXXXXXXXXXXXX642d",
+  "timeInterval": {
+    "start": "2022-09-09T10:51:06Z",
+    "end": "2022-09-09T17:00:00Z",
+    "duration": "PT6H8M54S"
+  },
+  "workspaceId": "XXXXXXXXXXXXXXXXXXXXXX62de",
+  "isLocked": false,
+  "hourlyRate": null,
+  "costRate": null,
+  "customFieldValues": [],
+  "type": "REGULAR",
+  "kioskId": null,
+  "currentlyRunning": false,
+  "project": {
+    "name": "Zeal + Clockify Integration",
+    "clientId": "",
+    "workspaceId": "XXXXXXXXXXXXXXXXXXXXXX62de",
+    "billable": false,
+    "estimate": {
+      "estimate": "PT0S",
+      "type": "AUTO"
+    },
+    "color": "#009688",
+    "archived": false,
+    "clientName": "",
+    "duration": "PT6H8M54S",
+    "note": "This is an example of an integration between a time tracker and Zeal",
+    "activeEstimate": "NONE",
+    "timeEstimate": {
+      "includeNonBillable": true,
+      "estimate": 0,
+      "type": "AUTO",
+      "resetOption": null
+    },
+    "budgetEstimate": null,
+    "id": "XXXXXXXXXXXXXXXXXXXXX6312",
+    "public": false,
+    "template": false
+  },
+  "task": null,
+  "user": {
+    "id": "XXXXXXXXXXXXXXXXXXXX64ea",
+    "name": "Richard Hendricks",
+    "status": "ACTIVE"
+  },
+  "tags": []
+}

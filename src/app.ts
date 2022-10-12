@@ -1,5 +1,6 @@
 import express, { Express, Request, Response } from "express";
 import * as configs from "./config/app.config";
+import { timeEntry } from "./routes/timeEntry.route";
 
 export const app: Express = express();
 app.use(express.json());
@@ -12,6 +13,8 @@ app.get("/", (_req: Request, res: Response) => {
 app.get("/reportingPeriods", (_req: Request, res: Response) => {
   res.json(configs.defReportingPeriods)
 })
+
+app.use("/time-entry", timeEntry);
 
 app.listen(configs.port, () => {
   console.log(
