@@ -6,9 +6,7 @@ import {
   defReportingPeriods,
 } from "../config/app.config";
 import * as ISO from "../utils/isoHelpers";
-import {
-  ResourceNotFoundException,
-} from "../utils/exceptions";
+import { ResourceNotFoundException } from "../utils/exceptions";
 
 /* 
 In place of a call to a local function you may see
@@ -39,17 +37,16 @@ export async function handleTimeEntry(
 }
 
 export async function findEmployeeByClockifyID(clockifyUserId: string) {
-  const employee = await zealClient
+  const employees = await zealClient
     .getAllEmployees({
       companyID,
       external_id: clockifyUserId,
     })
-    .then((r) => r[0]);
 
-  if (!employee) {
-    throw new ResourceNotFoundException("Zeal Employee");
+  if (employees.length) {
+    return employees[0];
   } else {
-    return employee;
+    throw new ResourceNotFoundException("Zeal Employee");
   }
 }
 
@@ -122,14 +119,14 @@ export async function getAnyExistingCheck(
   employeeID: string,
   reportingPeriodID: string
 ) {
-  return await zealClient
-    .getEmployeeChecksByEmployee({
-      companyID,
-      employeeID,
-      reportingPeriodID,
-      status: "pending",
-    })
-    .then((checks) => checks[0]);
+  const checks = await zealClient.getEmployeeChecksByEmployee({
+    companyID,
+    employeeID,
+    reportingPeriodID,
+    status: "pending",
+  });
+
+  return checks.length ? checks[0] : null;
 }
 
 export async function createCheck(
