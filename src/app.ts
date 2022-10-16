@@ -15,7 +15,11 @@ app.get("/", (_req: Request, res: Response) => {
 });
 
 app.get("/reporting-periods", (_req: Request, res: Response) => {
-  res.json(configs.defReportingPeriods);
+  const sortedReportingPeriods = configs.defReportingPeriods.sort((a, b) =>
+    a.start < b.start ? -1 : 1
+  );
+
+  res.json(sortedReportingPeriods);
 });
 
 app.use("/time-entry", timeEntry);
