@@ -6,6 +6,8 @@ This app serves as an example of how one might integrate a time and attendance s
 
 The app has one main purpose: receive time entry data from Clockify's Timer Stopped webhook event and convert it to a Shift on a Zeal Employee Check.
 
+[Watch the video demo](https://www.loom.com/share/ad92a80e6e924a379b45c74ac4a21046)
+
 ### Tech Used
 
 - Node
