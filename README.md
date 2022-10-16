@@ -164,17 +164,16 @@ export async function handleTimeEntry(
 // snippet from timeEntry.controller.ts
 
 export async function findEmployeeByClockifyID(clockifyUserId: string) {
-  const employee = await zealClient
+  const employees = await zealClient
     .getAllEmployees({
       companyID,
       external_id: clockifyUserId,
-    })
-    .then((r) => r[0]);
+    });
 
-  if (!employee) {
-    throw new ResourceNotFoundException("Zeal Employee");
+  if (employees.length) {
+    return employees[0];
   } else {
-    return employee;
+    throw new ResourceNotFoundException("Zeal Employee");
   }
 }
 ```
