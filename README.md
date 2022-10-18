@@ -166,11 +166,10 @@ export async function handleTimeEntry(
 // snippet from timeEntry.controller.ts
 
 export async function findEmployeeByClockifyID(clockifyUserId: string) {
-  const employees = await zealClient
-    .getAllEmployees({
-      companyID,
-      external_id: clockifyUserId,
-    });
+  const employees = await zealClient.getAllEmployees({
+    companyID,
+    external_id: clockifyUserId,
+  });
 
   if (employees.length) {
     return employees[0];
@@ -224,3 +223,9 @@ export async function createOrUpdateEmployeeCheck(
   }
 }
 ```
+
+## Closing Words
+
+Ultimately, there is a bit more complexity involved in the app, but this is the main functionality. We hope that this overview gives you a great foundation to explore and expand the application as you see fit.
+
+**Happy hacking!**
